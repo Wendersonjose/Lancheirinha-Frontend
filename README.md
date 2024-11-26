@@ -1,92 +1,100 @@
-# Lancheirinha-Frontend
+🥪 Lancheirinha Frontend
+Bem-vindo ao repositório do Lancheirinha Frontend, a interface interativa para a gestão de produtos e vendas do e-commerce Lancheirinha da Nutri. Este projeto é construído utilizando React e está integrado a uma API backend com PostgreSQL.
 
-Este repositório contém o frontend do projeto **Lancheirinha da Nutri**, desenvolvido em ReactJS.
+> Lancheirinha da Nutri: Nutrição, sabor e praticidade para o seu dia a dia! 🍎✨
 
----
+📖 Índice
+📦 Sobre o Projeto
 
-## 💻 Sobre o Projeto
+**🛠️ Tecnologias Utilizadas**
 
-O objetivo deste projeto é criar uma interface para gerenciar produtos, integrando com o backend (Node.js) e o banco de dados PostgreSQL. Ele foi projetado com foco em usabilidade e responsividade.
+**🚀 Como Executar o Projeto**
 
----
+**🤝 Contribuindo**
 
-## 🚀 Tecnologias Utilizadas
+**📞 Contato**
 
-- **ReactJS**
-- **React-Bootstrap**
-- **Axios**
-- **HTML5**
-- **CSS3**
+**📦 Sobre o Projeto**
 
----
+O Lancheirinha Frontend oferece uma interface simples e intuitiva para:
 
-## 🛠️ Funcionalidades
+Exibir produtos cadastrados 🛒
 
-- Exibição de produtos disponíveis.
-- Cadastro de novos produtos com upload de imagem.
-- Atualização de informações dos produtos.
-- Exclusão de produtos existentes.
+Adicionar novos produtos 📥
 
----
+Atualizar produtos existentes 📝
 
-📖 Como Rodar o Projeto
+Excluir produtos 📤
+
+Conectado ao backend, o projeto utiliza axios para consumo da API e está otimizado para fácil uso e expansão.
+
+**🛠️ Tecnologias Utilizadas**
+
+As principais tecnologias e bibliotecas utilizadas neste projeto são:
+
+React: Framework JavaScript para construção de interfaces de usuário.
+
+Axios: Biblioteca para consumo de APIs REST.
+
+Bootstrap: Estilo responsivo para componentes.
+
+React-Bootstrap: Componentes do Bootstrap para React.
+
+**🚀 Como Executar o Projeto**
+
 Pré-requisitos
-Node.js instalado.
-Yarn ou NPM para gerenciar pacotes.
-Passos
-Clone o repositório:
-bash
-Copiar código
+Certifique-se de ter instalado em sua máquina:
+
+Node.js
+
+npm ou yarn
+
+Git
+
+**Passo a Passo**
+
+Clone este repositório:
+
+sh
 git clone https://github.com/Wendersonjose/Lancheirinha-Frontend.git
+Acesse o diretório do projeto:
+
+sh
+cd Lancheirinha-Frontend
 Instale as dependências:
-bash
-Copiar código
+
+sh
 npm install
-Inicie o servidor:
-bash
-Copiar código
+Inicie o servidor de desenvolvimento:
+
+sh
 npm start
-O frontend estará disponível em:
-arduino
-Copiar código
-http://localhost:3000
-📖 Integração com o Backend
-Certifique-se de que o backend está rodando e que o arquivo apiService.js está configurado com o endpoint correto.
+Acesse a aplicação no navegador: URL padrão: http://localhost:3000
 
-📄 Licença
-Este projeto está sob a licença MIT.
+**🤝 Contribuindo**
+Quer contribuir com este projeto? Siga os passos abaixo:
 
-🌐 Contato
-Wenderson José - LinkedIn
+Faça um fork do projeto.
 
-markdown
-Copiar código
+Crie uma nova branch:
 
----
+sh
+git checkout -b minha-feature
+Faça as alterações necessárias e commit:
 
-### **Passos para Adicionar ao Repositório no GitHub**
+sh
+git commit -m "Minha nova feature"
+Envie suas alterações para o repositório remoto:
 
-1. **Crie o Repositório no GitHub**
-   - Nome: `Lancheirinha-Frontend`
-   - Descrição: "Frontend do projeto Lancheirinha da Nutri desenvolvido em ReactJS."
-   - Inicialize com `README.md` e `.gitignore`.
+sh
+git push origin minha-feature
+Abra um Pull Request no repositório original.
 
-2. **Adicione o Repositório ao Seu Projeto**
-   ```bash
-   git init
-   git remote add origin https://github.com/Wendersonjose/Lancheirinha-Frontend.git
-Adicione o .gitignore no VSCode
+**📞 Contato**
+Siga-me no LinkedIn e Instagram para mais atualizações e projetos:
 
-Crie um arquivo chamado .gitignore e insira o seguinte conteúdo:
-bash
-Copiar código
-/node_modules
-/build
-.env
-Faça o Commit e Envie para o GitHub
+LinkedIn
 
-bash
-Copiar código
-git add .
-git commit -m "Initial commit - Lancheirinha Frontend"
-git push -u origin main
+Instagram
+
+Feito com ❤️ por **Wenderson Jose**
